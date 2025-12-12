@@ -73,7 +73,7 @@ export function PasswordGenerator() {
         toast.success("密码已复制到剪贴板", {
           icon: <CheckCircle2 className="h-4 w-4" />,
         })
-      } catch (err) {
+      } catch {
         toast.error("复制失败，请重试")
       }
     }
